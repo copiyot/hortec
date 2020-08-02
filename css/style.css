@@ -1,0 +1,290 @@
+body {
+  color: #ffff;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: #ffff;
+}
+
+a.scrolled {
+  color: rgb(68, 63, 63);
+}
+
+nav.scrolled {
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.collapse {
+  font-size: 15px;
+}
+
+.camp-name {
+  font-size: 30px;
+  padding: 0px !important;
+}
+
+#home-section {
+  background: url(../img/cornfields.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(59, 46, 46, 0.7);
+}
+
+.home-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.company-do {
+  font-size: 300%;
+  font-weight: 400;
+}
+
+.company-def {
+  font-weight: 400;
+  color: rgb(206, 194, 194);
+}
+
+.about-us {
+  background-color: rgb(252, 248, 248);
+  color: rgb(109, 105, 105);
+  position: relative;
+  height: 100%;
+}
+
+.about__us {
+  padding-top: 80px;
+}
+
+.about-us__title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f16821;
+}
+
+.under-line {
+  height: 2px;
+  width: 12%;
+  position: absolute;
+  background-color: #f16821;
+}
+
+.about-us__content {
+  padding-right: 50px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.training-pic {
+  background: url(../img/training.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.training {
+  color: rgb(109, 105, 105);
+  height: 100%;
+}
+
+.our-training {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f16821;
+  text-align: center;
+}
+
+.training-heading {
+  margin-top: 50px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.training-cert {
+  text-align: center;
+}
+
+.training-content {
+  margin-top: 35px;
+}
+
+.training-underline {
+  height: 1px;
+  width: 30%;
+  background-color: #f16821;
+  display: inline-block;
+}
+
+.training-content__topic {
+  font-weight: 600;
+}
+
+.training-content__explanation {
+  font-weight: 400;
+}
+
+.courses {
+  color: rgb(109, 105, 105);
+  background-color: rgb(252, 248, 248);
+  min-height: 100%;
+}
+
+.courses-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f16821;
+  text-align: center;
+}
+
+.courses-heading {
+  margin-top: 50px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.courses-underline {
+  height: 1px;
+  width: 5%;
+  background-color: #f16821;
+  display: inline-block;
+}
+
+.btn-link {
+  color: rgb(109, 105, 105);
+}
+
+.course-profile {
+  background-color: #f16821;
+  color: #fff;
+}
+
+.course-profile:hover,
+.course-profile:focus {
+  color: #f16821 !important;
+  background-color: transparent;
+  border: 1px solid #f16821;
+}
+
+.course-profile__section {
+  align-self: center;
+  text-align: center;
+}
+
+.contact-us {
+  color: rgb(109, 105, 105);
+}
+
+.contact-header__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-header {
+  margin-top: 50px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.contact-underline {
+  height: 2px;
+  width: 5%;
+  background-color: #f16821;
+  display: inline-block;
+}
+
+.contact-header__content {
+  padding-top: 8px;
+}
+
+.contact-icons {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(199, 192, 192);
+  color: rgb(122, 112, 112);
+  font-size: 14px;
+}
+
+.footer-header {
+  font-size: 16px;
+}
+
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-content_center {
+  position: relative;
+  left: 2%; 
+}
+
+.footer-underline {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(122, 112, 112);
+}
+
+.footer-icons {
+  color: rgb(122, 112, 112);
+}
+
+.course-profile__heading {
+  background-color: #f1662181;
+}
+
+.back-to__home:hover,
+.back-to__home:focus {
+  color: #fff;
+}
+
+.course-profile__link:hover,
+.course-profile__link:focus {
+  color: #fff;
+}
+
+.course-profile__header {
+  color: #f1662181;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 360px) {
+  .company-do {
+    font-size: 100%;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 368px) {
+  .company-do {
+    font-size: 150%;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .company-do {
+    font-size: 300%;
+    font-weight: 400;
+  }
+}
